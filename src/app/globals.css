@@ -205,3 +205,6 @@ aside[aria-label="Miles Mattina resume viewer"] button, .resume-download { borde
   .palette-cover-title > span { font-size:25px; }
   .palette-cover-rule { margin:12px 0 10px; }
 }
+@media (max-width:360px) {
+  .resume-palette { transform:translate(-50%,-50%) scale(.86); }
+}
